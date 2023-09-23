@@ -42,7 +42,9 @@ repos:
         language: system
         types: [python]
         args: [
-           "--ignore=E203,W503,FI10,FI11,FI12,FI13,FI14,FI15,FI16,FI17,FI18,FI58,PT013",
+           "--ignore=ANN101, E203,W503,FI10,FI11,FI12,FI13,FI14,FI15,FI16,FI17,FI18,FI58,PT013",
+           #
+               # ANN101 Missing type annotation for self in method
            # black
                # E203 whitespace before ':'
                # W503 line break before binary operator
