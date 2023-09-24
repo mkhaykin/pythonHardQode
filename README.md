@@ -1,6 +1,6 @@
 # pythonHardQode
 
-Учебный проект: REST API по работе с меню ресторана.\
+Учебный проект: REST API по работе с уроками.\
 Техническое задание: [spec.txt](./spec.txt).\
 Схема данных: [schema.png](./schema.png).\
 Технологии: Django, sqlite.
